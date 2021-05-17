@@ -1,0 +1,43 @@
+#splash-section {
+    background-color: #000047;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+#splash-container {
+    text-align: center;
+    padding: 50px;
+}
+
+#classes-container {
+    padding: 50px;
+    width: 70%;
+}
+
+.class-card {
+    background-color: white;
+    border-radius: 15px;
+    border: 2px solid rgb(224, 224, 224);
+    box-shadow: 1px 1px 10px rgb(196, 193, 193);
+    margin: 20px;
+}
+
+.column {
+    padding: 0px;
+}
+
+.class-card-title {
+    color: white;
+    padding: 20px 20px 20px 30px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.class-card-description {
+    background-color: white;
+    color: black;
+    padding: 20px 20px 20px 30px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
