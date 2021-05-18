@@ -2,23 +2,52 @@
 <html lang="en">
     <head>
         <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/mystyles.css">
         <title>
             My Site!
         </title>
     </head>
-    <body>
+    <body class="has-navbar-fixed-top">
+        <nav class="navbar is-dark is-fixed-top" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="https://bulma.io">
+                <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+                </a>
+            
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                </a>
+            </div>
+            
+            <div class="navbar-menu">
+                <div class="navbar-start">
+                <a class="navbar-item">
+                    Home
+                </a>
+            
+                <a class="navbar-item">
+                    Classes
+                </a>
+            </div>
+        </nav>
+
         <section id="splash-section">
             <div class="container" id="splash-container">
-                <b><p class="is-size-1" style="color: white">Welcome</p></b>
+                <b><p style="color: white; font-size: 60px; margin-top: 20px;">Welcome, we're Organization Name</p></b>
+                <p class="is-size-3" style="color: white; margin: 20px;">We aim to blah blah blah blah</p>
+                <button class="button is-danger is-rounded is-medium" style="margin-top: 70px; margin-bottom: 40px;">See what we offer</button>
             </div>
         </section>
-        <section>
+        <img src="purple_wave.svg" width="100%" style="display: block;">
+        <section id="classes-section">
             <div class="container" id="classes-container">
                 <b><p style="text-align: center; color: #000047; font-size: 60px;">Summer Classes</p></b>
                 <div class="columns" style="margin-top: 30px;">
                     <div class="column class-card">
-                        <div class="class-card-title" style="background-color: green;">
+                        <div class="class-card-title" style="background-color: #00D4B7;">
                             <b><p class="is-size-3">Intro to Python</p></b>
                             <p class="is-size-5">Short description</p>
                             <p class="is-size-5">Skill level: <b>BEGINNER</b></p>
@@ -32,8 +61,8 @@
                             <p class="is-size-5">Description</p>
                         </div>
                     </div>
-                    <div class="column class-card" style="background-color: rgb(255, 115, 0);">
-                        <div class="class-card-title">
+                    <div class="column class-card">
+                        <div class="class-card-title" style="background-color: #FCA301;">
                             <b><p class="is-size-3">Android App Development</p></b>
                             <p class="is-size-5">Short description</p>
                             <p class="is-size-5">Skill level: <b>INTERMEDIATE</b></p>
