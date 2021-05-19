@@ -5,6 +5,8 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/mystyles.css">
         <script src="https://kit.fontawesome.com/4d337321b2.js" crossorigin="anonymous"></script>
+        <script src="js/index.js"></script>
+        <meta charset="utf-8">
         <title>
             My Site!
         </title>
@@ -42,6 +44,7 @@
                 <button class="button is-danger is-rounded is-medium" style="margin-top: 70px; margin-bottom: 40px;">See what we offer</button>
             </div>
         </section>
+
         <img src="purple_wave.svg" width="100%" style="display: block;">
         <section id="classes-section">
             <div class="container classes-container">
@@ -61,9 +64,17 @@
                             <p class="is-size-5">Description</p>
                             <p class="is-size-5">Description</p>
                         </div>
-                        <div class="is-flex more-info-div">
+                        <div class="is-flex more-info-btn-div">
                             <b><p class="is-size-5" style="margin-right: 10px;">More info</p></b>
-                            <i class="fas fa-angle-down fa-2x"></i>
+                            <button onclick="showInfo(this)" class="more-info-btn">
+                                <i class="fas fa-angle-down fa-2x"></i>
+                            </button>
+                        </div>
+                        <div class="more-info">
+                            <p>More info</p>
+                            <p>More info</p>
+                            <p>More info</p>
+                            <p>More info</p>
                         </div>
                     </div>
                     <div class="column class-card">
@@ -80,14 +91,23 @@
                             <p class="is-size-5">Description</p>
                             <p class="is-size-5">Description</p>
                         </div>
-                        <div class="is-flex more-info-div">
+                        <div class="is-flex more-info-btn-div">
                             <b><p class="is-size-5" style="margin-right: 10px;">More info</p></b>
-                            <i class="fas fa-angle-down fa-2x"></i>
+                            <button onclick="showInfo(this)" class="more-info-btn">
+                                <i class="fas fa-angle-down fa-2x"></i>
+                            </button>
+                        </div>
+                        <div class="more-info">
+                            <p>More info</p>
+                            <p>More info</p>
+                            <p>More info</p>
+                            <p>More info</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
         <img src="purple_wave.svg" width="100%" style="display: block; transform: rotate(180deg);">
         <section id="future-classes-section">
             <div class="container classes-container">
@@ -141,6 +161,12 @@
                 </div>
             </div>
         </section>
+        <img src="purple_wave.svg" width="100%" style="display: block;">
+
+        <section id="signup-section" style="display: block; background-color: rgb(74, 0, 143, 0.06); padding-bottom: 20px;">
+            <b><p style="text-align: center; color: #000047; font-size: 60px;">Sign Up</p></b>
+        </section>
+        
         <footer class="footer">
             <div class="content has-text-centered">
                 <p>Copyright 2021 Organization name.</p>
