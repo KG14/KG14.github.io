@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 nav {
     height: 70px !important;
     font-size: 20px;
@@ -75,4 +79,9 @@ nav {
 .more-info-btn {
     background: transparent;
     border: none;
+}
+
+.sign-up-btn {
+    margin-right: 20px;
+    margin-bottom: 20px;
 }

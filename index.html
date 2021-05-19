@@ -11,6 +11,7 @@
             My Site!
         </title>
     </head>
+
     <body class="has-navbar-fixed-top">
         <nav class="navbar is-dark is-fixed-top" role="navigation" aria-label="main navigation">
             <div class="navbar-brand">
@@ -24,16 +25,28 @@
                 <span aria-hidden="true"></span>
                 </a>
             </div>
-            
+
             <div class="navbar-menu">
                 <div class="navbar-start">
-                <a class="navbar-item">
+                  <a class="navbar-item" onclick="scrollSection('#splash-section', true)">
                     Home
-                </a>
+                  </a>
             
-                <a class="navbar-item">
+                  <a class="navbar-item" onclick="scrollSection('#classes-section', false)" >
                     Classes
-                </a>
+                  </a>
+
+                  <a class="navbar-item" onclick="scrollSection('#future-classes-section', false)">
+                    Future classes
+                  </a>
+
+                  <a class="navbar-item" onclick="scrollSection('#signup-section', true)">
+                    Sign up
+                  </a>
+                </div>
+            
+                <div class="navbar-end">
+                </div>
             </div>
         </nav>
 
@@ -41,7 +54,7 @@
             <div class="container" id="splash-container">
                 <b><p style="color: white; font-size: 60px; margin-top: 20px;">Welcome, we're Organization Name</p></b>
                 <p class="is-size-3" style="color: white; margin: 20px;">We aim to blah blah blah blah</p>
-                <button class="button is-danger is-rounded is-medium" style="margin-top: 70px; margin-bottom: 40px;">See what we offer</button>
+                <button class="button is-danger is-rounded is-medium" style="margin-top: 70px; margin-bottom: 40px;" onclick="scrollSection('#classes-section', false)">See what we offer</button>
             </div>
         </section>
 
@@ -64,11 +77,14 @@
                             <p class="is-size-5">Description</p>
                             <p class="is-size-5">Description</p>
                         </div>
-                        <div class="is-flex more-info-btn-div">
-                            <b><p class="is-size-5" style="margin-right: 10px;">More info</p></b>
-                            <button onclick="showInfo(this)" class="more-info-btn">
-                                <i class="fas fa-angle-down fa-2x"></i>
-                            </button>
+                        <div class="is-flex" style="width: 100%; justify-content: space-between;">
+                            <div class="is-flex more-info-btn-div">
+                                <b><p class="is-size-5" style="margin-right: 10px;">More info</p></b>
+                                <button onclick="showInfo(this)" class="more-info-btn">
+                                    <i class="fas fa-angle-down fa-2x"></i>
+                                </button>
+                            </div>
+                            <button class="button sign-up-btn is-danger is-light" onclick="scrollSection('#signup-section', true)">Sign up</button>
                         </div>
                         <div class="more-info">
                             <p>More info</p>
@@ -77,6 +93,7 @@
                             <p>More info</p>
                         </div>
                     </div>
+
                     <div class="column class-card">
                         <div class="class-card-title" style="background-color: #FCA301;">
                             <b><p class="is-size-3">Android App Development</p></b>
@@ -91,11 +108,14 @@
                             <p class="is-size-5">Description</p>
                             <p class="is-size-5">Description</p>
                         </div>
-                        <div class="is-flex more-info-btn-div">
-                            <b><p class="is-size-5" style="margin-right: 10px;">More info</p></b>
-                            <button onclick="showInfo(this)" class="more-info-btn">
-                                <i class="fas fa-angle-down fa-2x"></i>
-                            </button>
+                        <div class="is-flex" style="width: 100%; justify-content: space-between;">
+                            <div class="is-flex more-info-btn-div">
+                                <b><p class="is-size-5" style="margin-right: 10px;">More info</p></b>
+                                <button onclick="showInfo(this)" class="more-info-btn">
+                                    <i class="fas fa-angle-down fa-2x"></i>
+                                </button>
+                            </div>
+                            <button class="button sign-up-btn is-danger is-light" onclick="scrollSection('#signup-section', true)">Sign up</button>
                         </div>
                         <div class="more-info">
                             <p>More info</p>
@@ -128,6 +148,7 @@
                             <p class="is-size-5">Description</p>
                         </div>
                     </div>
+
                     <div class="column class-card no-shadow">
                         <div class="class-card-title" style="background-color: #00D4B7;">
                             <b><p class="is-size-3">Intro to Cybersec</p></b>
@@ -143,6 +164,7 @@
                             <p class="is-size-5">Description</p>
                         </div>
                     </div>
+
                     <div class="column class-card no-shadow">
                         <div class="class-card-title" style="background-color: #00D4B7;">
                             <b><p class="is-size-3">Intro to C++</p></b>
@@ -173,6 +195,7 @@
         <footer class="footer">
             <div class="content has-text-centered">
                 <p>Copyright 2021 Organization name.</p>
+                <p>Design by Karan Gupta.</p>
             </div>
         </footer>
     </body>
