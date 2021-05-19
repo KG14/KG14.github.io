@@ -1,0 +1,26 @@
+{
+  "name": "kg14.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sass/mystyles.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css-build": "node-sass --omit-source-map-url sass/mystyles.scss css/mystyles.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KG14/KG14.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KG14/KG14.github.io/issues"
+  },
+  "homepage": "https://github.com/KG14/KG14.github.io#readme",
+  "devDependencies": {
+    "bulma": "^0.9.2",
+    "node-sass": "^6.0.0"
+  }
+}

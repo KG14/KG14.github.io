@@ -21,8 +21,13 @@ nav {
     background-color: rgb(74, 0, 143, 0.06);
 }
 
-#classes-container {
+#future-classes-section {
+    background-color: #4A008F;
+}
+
+.classes-container {
     padding: 50px;
+    padding-bottom: 100px;
     width: 70%;
 }
 
@@ -33,8 +38,12 @@ nav {
     margin: 20px;
 }
 
+.no-shadow {
+    box-shadow: none;
+}
+
 .column {
-    padding: 0px;
+    padding: 0px !important;
 }
 
 .class-card-title {
@@ -50,4 +59,11 @@ nav {
     padding: 20px 20px 20px 30px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+}
+
+.more-info-div {
+    align-items: center;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    color: #4A008F;
 }
