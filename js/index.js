@@ -7,9 +7,11 @@ function showInfo(icon) {
     // Check state
     if (parent.querySelector('.more-info').style.display == 'block') {
         parent.querySelector('.more-info').style.display = 'none';
+        icon.querySelector("i").classList.remove("more-info-btn-active");
     }
     else {
         parent.querySelector('.more-info').style.display = 'block';
+        icon.querySelector("i").classList.add("more-info-btn-active");
     }
 }
 

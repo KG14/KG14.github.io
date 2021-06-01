@@ -3,7 +3,7 @@ html {
 }
 
 nav {
-    height: 70px !important;
+    height: 7vh !important;
     font-size: 20px;
 }
 
@@ -79,6 +79,10 @@ nav {
 .more-info-btn {
     background: transparent;
     border: none;
+}
+
+.more-info-btn-active {
+    transform: rotate(180deg);
 }
 
 .sign-up-btn {

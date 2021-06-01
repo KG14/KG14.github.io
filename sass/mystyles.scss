@@ -28,6 +28,7 @@ $input-shadow: none;
 $footer-background-color: $dark-gray;
 $footer-color: $white;
 $footer-padding: 3rem 1.5rem 3rem;
+$navbar-item-img-max-height: 10rem;
 
 // Import only what you need from Bulma
 @import "../node_modules/bulma/sass/utilities/_all.sass";
