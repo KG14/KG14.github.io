@@ -17,7 +17,7 @@
         <nav class="navbar is-dark is-fixed-top" role="navigation" aria-label="main navigation">
             <div class="navbar-brand">
                 <a class="navbar-item" href="https://csignited.org">
-                    <img src="csignited-logo-text-cropped.svg" width="130vh" style="margin-left: 10px;">
+                    <img src="csignited-logo-text-cropped.svg" width="120vh" style="margin-left: 10px;">
                 </a>
             
                 <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -34,7 +34,7 @@
                   </a>
             
                   <a class="navbar-item" onclick="scrollSection('#classes-section', false)" >
-                    Classes
+                    Summer camps
                   </a>
 
                   <a class="navbar-item" onclick="scrollSection('#future-classes-section', false)">
@@ -58,7 +58,7 @@
                     <span style="color: #FCA301">CS</span>
                     <span style="color: white">Ignited.</span>
                 </p></b>
-                <p class="is-size-3" style="color: white; margin: 20px;">We aim to provide quality CS education through a variety of camps and classes.</p>
+                <p class="is-size-3" style="color: white; margin: 20px;">We aim to provide free, quality CS education through a variety of camps and classes.</p>
                 <button class="button is-danger is-rounded is-medium" style="margin-top: 70px; margin-bottom: 40px;" onclick="scrollSection('#classes-section', false)">See what we offer</button>
             </div>
         </section>
@@ -71,16 +71,20 @@
                     <div class="column class-card">
                         <div class="class-card-title" style="background-color: #00D4B7;">
                             <b><p class="is-size-3">Intro to Python</p></b>
-                            <p class="is-size-5">Short description</p>
+                            <p class="is-size-5">An introduction to programming in Python.</p>
                             <p class="is-size-5">Skill level: <b>BEGINNER</b></p>
                         </div>
                         <div class="class-card-description">
-                            <p class="is-size-5">Description</p>
-                            <p class="is-size-5">Description</p>
-                            <p class="is-size-5">Description</p>
-                            <p class="is-size-5">Description</p>
-                            <p class="is-size-5">Description</p>
-                            <p class="is-size-5">Description</p>
+                            <div class="description-icon-div">
+                                <i class="far fa-calendar-alt fa-2x"></i>
+                                <p class="is-size-5">Monday, July 12, to Friday, July 16</p>
+                            </div>
+                            <div class="description-icon-div">
+                                <i class="far fa-clock fa-2x"></i>
+                                <p class="is-size-5">10:00 AM to 12:00 PM every day (10 hours)</p>
+                            </div>
+                            <hr>
+                            <p class="is-size-5">&emsp;This FREE camp will introduce students to the basics of programming in Python. Students will learn foundational concepts such as program structure, data types, variables, basic operations, logic with conditionals, loops, data structures like arrays, and functions. They will have a chance to use these new skills in a number of mini-projects and will end the camp with a final project: building the game TicTacToe.</p>
                         </div>
                         <div class="is-flex" style="width: 100%; justify-content: space-between;">
                             <div class="is-flex more-info-btn-div">
@@ -89,29 +93,32 @@
                                     <i class="fas fa-angle-down fa-2x"></i>
                                 </button>
                             </div>
-                            <button class="button sign-up-btn is-danger is-light" onclick="scrollSection('#signup-section', true)">Sign up</button>
+                            <button class="button sign-up-btn is-danger is-light" onclick="scrollSection('#signup-section', false)">Sign up</button>
                         </div>
                         <div class="more-info">
-                            <p>More info</p>
-                            <p>More info</p>
-                            <p>More info</p>
-                            <p>More info</p>
+                            <p class="is-size-5"><strong>NOTE:</strong> No prior knowledge of Python is required; the camp will introduce students to the language.</p>
+                            <p class="is-size-5">Students will need access to a computer.</p>
+                            <p class="is-size-5">Python can be downloaded from <a href="https://www.python.org/downloads/">here</a>, but we will cover the installation in the camp as well.</p>
                         </div>
                     </div>
 
                     <div class="column class-card">
                         <div class="class-card-title" style="background-color: #FCA301;">
                             <b><p class="is-size-3">Android App Development</p></b>
-                            <p class="is-size-5">Short description</p>
+                            <p class="is-size-5">An introduction to app development with Android</p>
                             <p class="is-size-5">Skill level: <b>INTERMEDIATE</b></p>
                         </div>
                         <div class="class-card-description">
-                            <p class="is-size-5">Description</p>
-                            <p class="is-size-5">Description</p>
-                            <p class="is-size-5">Description</p>
-                            <p class="is-size-5">Description</p>
-                            <p class="is-size-5">Description</p>
-                            <p class="is-size-5">Description</p>
+                            <div class="description-icon-div">
+                                <i class="far fa-calendar-alt fa-2x"></i>
+                                <p class="is-size-5">Monday, July 12, to Friday, July 16</p>
+                            </div>
+                            <div class="description-icon-div">
+                                <i class="far fa-clock fa-2x"></i>
+                                <p class="is-size-5">10:00 AM to 12:00 PM every day (10 hours)</p>
+                            </div>
+                            <hr>
+                            <p class="is-size-5">&emsp;This FREE camp will introduce students to the basics of app development with Android. Students will learn to create Android apps using Android Studio, Java, and XML, along with a number of Android front-end and back-end components. They will end the camp with a final project: building a note-taking app from scratch, complete with an attractive UI and functional back-end that allows notes to be stored in a database.</p>
                         </div>
                         <div class="is-flex" style="width: 100%; justify-content: space-between;">
                             <div class="is-flex more-info-btn-div">
@@ -123,10 +130,8 @@
                             <button class="button sign-up-btn is-danger is-light" onclick="scrollSection('#signup-section', true)">Sign up</button>
                         </div>
                         <div class="more-info">
-                            <p>More info</p>
-                            <p>More info</p>
-                            <p>More info</p>
-                            <p>More info</p>
+                            <p class="is-size-5"><strong>NOTE:</strong> Basic knowledge of the Java language is highly recommended for this camp.</p>
+                            <p class="is-size-5">Students will also need access to a computer with Android Studio installed. Click <a href="https://developer.android.com/studio/?gclid=Cj0KCQjw2NyFBhDoARIsAMtHtZ48ofGgydxB3IdjG_CR7E8l4fDI1uBNUpSvcw6e6lFp8VmSoLjHT1kaAkDfEALw_wcB&gclsrc=aw.ds">here</a> to go to the download page.</p>
                         </div>
                     </div>
                 </div>
@@ -139,50 +144,41 @@
                 <b><p style="text-align: center; color: white; font-size: 60px;">Coming Soon!</p></b>
                 <div class="columns" style="margin-top: 30px;">
                     <div class="column class-card no-shadow">
-                        <div class="class-card-title" style="background-color: #00D4B7;">
+                        <div class="class-card-title" style="background-color: #FCA301;">
                             <b><p class="is-size-3">Intro to AI</p></b>
-                            <p class="is-size-5">Short description</p>
-                            <p class="is-size-5">Skill level: <b>BEGINNER</b></p>
+                            <p class="is-size-5">An introduction to AI.</p>
+                            <p class="is-size-5">Skill level: <b>INTERMEDIATE</b></p>
                         </div>
                         <div class="class-card-description">
-                            <p class="is-size-5">Description</p>
-                            <p class="is-size-5">Description</p>
-                            <p class="is-size-5">Description</p>
-                            <p class="is-size-5">Description</p>
-                            <p class="is-size-5">Description</p>
-                            <p class="is-size-5">Description</p>
+                            <p class="is-size-5">This class will introduce students to AI with Python.</p>
+                            <br>
+                            <p class="is-size-5">More info coming soon!</p>
                         </div>
                     </div>
 
                     <div class="column class-card no-shadow">
                         <div class="class-card-title" style="background-color: #00D4B7;">
                             <b><p class="is-size-3">Intro to Cybersec</p></b>
-                            <p class="is-size-5">Short description</p>
+                            <p class="is-size-5">An introduction to Cybersecurity.</p>
                             <p class="is-size-5">Skill level: <b>BEGINNER</b></p>
                         </div>
                         <div class="class-card-description">
-                            <p class="is-size-5">Description</p>
-                            <p class="is-size-5">Description</p>
-                            <p class="is-size-5">Description</p>
-                            <p class="is-size-5">Description</p>
-                            <p class="is-size-5">Description</p>
-                            <p class="is-size-5">Description</p>
+                            <p class="is-size-5">This class will introduce students to the basics of cybersecurity.</p>
+                            <br>
+                            <p class="is-size-5">More info coming soon!</p>
                         </div>
                     </div>
 
                     <div class="column class-card no-shadow">
                         <div class="class-card-title" style="background-color: #00D4B7;">
                             <b><p class="is-size-3">Intro to C++</p></b>
-                            <p class="is-size-5">Short description</p>
+                            <p class="is-size-5">An introduction to C++.</p>
                             <p class="is-size-5">Skill level: <b>BEGINNER</b></p>
                         </div>
                         <div class="class-card-description">
-                            <p class="is-size-5">Description</p>
-                            <p class="is-size-5">Description</p>
-                            <p class="is-size-5">Description</p>
-                            <p class="is-size-5">Description</p>
-                            <p class="is-size-5">Description</p>
-                            <p class="is-size-5">Description</p>
+                            <p class="is-size-5">This class will introduce students to the basics of the C++ language.</p>
+                            <br>
+                            <p class="is-size-5">More info coming soon!</p>
                         </div>
                     </div>
                 </div>
@@ -193,13 +189,13 @@
         <section id="signup-section" style="display: block; background-color: rgb(74, 0, 143, 0.06); padding-bottom: 20px;">
             <b><p style="text-align: center; color: #000047; font-size: 60px; padding-top: 30px;">Sign Up</p></b>
             <div class="is-flex is-justify-content-center" style="padding-bottom: 30px; padding-top: 20px;">
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeH64-i7EwOkyVAAR3i2NhUPgkyBBC6pV1ZK7QH-7alE6RlSw/viewform?embedded=true" width="640" height="409" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeH64-i7EwOkyVAAR3i2NhUPgkyBBC6pV1ZK7QH-7alE6RlSw/viewform?embedded=true" width="50%" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
             </div>
         </section>
         
         <footer class="footer">
             <div class="content has-text-centered">
-                <p>Copyright 2021 Organization name.</p>
+                <p>Copyright 2021 CSIgnited.</p>
                 <p>Design by Karan Gupta.</p>
             </div>
         </footer>

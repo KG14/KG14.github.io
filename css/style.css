@@ -58,9 +58,20 @@ nav {
 .class-card-description {
     background-color: white;
     color: black;
-    padding: 20px 20px 20px 30px;
+    padding: 25px 20px 20px 30px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+}
+
+.class-card-description i {
+    color: rgb(177, 177, 177);
+    margin-right: 15px;
+}
+
+.description-icon-div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
 }
 
 .more-info-btn-div {
@@ -73,12 +84,19 @@ nav {
 .more-info {
     margin-left: 30px;
     margin-bottom: 20px;
+    margin-right: 30px;
     display: none;
+    color: black
 }
 
 .more-info-btn {
     background: transparent;
     border: none;
+    transition: transform 0.5s;
+}
+
+.more-info-btn:hover {
+    transform: translate(0px, 3px);
 }
 
 .more-info-btn-active {
