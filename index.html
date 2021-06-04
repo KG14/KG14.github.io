@@ -8,6 +8,7 @@
         <script src="https://kit.fontawesome.com/4d337321b2.js" crossorigin="anonymous"></script>
         <script src="js/index.js"></script>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>
             CS Ignited | Quality CS Classes
         </title>
@@ -37,11 +38,11 @@
                     Summer camps
                   </a>
 
-                  <a class="navbar-item" onclick="scrollSection('#future-classes-section', false)">
+                  <a class="navbar-item" onclick="scrollSection('#future-classes-section', true)">
                     Future classes
                   </a>
 
-                  <a class="navbar-item" onclick="scrollSection('#signup-section', false)">
+                  <a class="navbar-item" onclick="scrollSection('#signup-section', true)">
                     Sign up
                   </a>
                 </div>
@@ -59,7 +60,7 @@
                     <span style="color: white">Ignited.</span>
                 </p></b>
                 <p class="is-size-3" style="color: white; margin: 20px;">We aim to provide free, quality CS education through a variety of camps and classes.</p>
-                <button class="button is-danger is-rounded is-medium" style="margin-top: 70px; margin-bottom: 40px;" onclick="scrollSection('#classes-section', false)">See what we offer</button>
+                <button class="button is-danger is-rounded is-medium" style="margin-top: 70px; margin-bottom: 40px;" onclick="scrollSection('#classes-section', true)">See what we offer</button>
             </div>
         </section>
 
@@ -93,7 +94,7 @@
                                     <i class="fas fa-angle-down fa-2x"></i>
                                 </button>
                             </div>
-                            <button class="button sign-up-btn is-danger is-light" onclick="scrollSection('#signup-section', false)">Sign up</button>
+                            <button class="button sign-up-btn is-danger is-light" onclick="scrollSection('#signup-section', true)">Sign up</button>
                         </div>
                         <div class="more-info">
                             <p class="is-size-5"><strong>NOTE:</strong> No prior knowledge of Python is required; the camp will introduce students to the language.</p>
@@ -194,9 +195,11 @@
         </section>
         
         <footer class="footer">
-            <div class="content has-text-centered">
-                <p>Copyright 2021 CSIgnited.</p>
-                <p>Design by Karan Gupta.</p>
+            <div class="content is-flex is-justify-content-center is-align-items-center">
+                <a href="https://csignited.org" style="margin-right: 2.5vh">
+                    <img src="csignited-logo-text-cropped.svg" width="120vh">
+                </a>
+                <p style="text-align: center;">Design by Karan Gupta.</p>   
             </div>
         </footer>
     </body>
