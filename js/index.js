@@ -1,4 +1,15 @@
 document.addEventListener('DOMContentLoaded', function() {
+   
+    // Get "navbar-burger" element
+    burger = document.querySelector('.navbar-burger')
+
+    burger.addEventListener('click', () => {
+
+        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+        burger.classList.toggle('is-active')
+        document.querySelector('.navbar-menu').classList.toggle('is-active');
+
+    })
 });
 
 function showInfo(icon) {

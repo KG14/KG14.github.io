@@ -19,6 +19,11 @@ nav {
     padding: 50px;
 }
 
+#see-classes-btn {
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
 #classes-section {
     background-color: rgb(74, 0, 143, 0.06);
 }
@@ -46,6 +51,11 @@ nav {
 
 .column {
     padding: 0px !important;
+    transition: all 0.3s;
+}
+
+.column:hover {
+    transform: scale(1.02)
 }
 
 .class-card-title {
