@@ -45,6 +45,16 @@ nav {
     margin: 20px;
 }
 
+@media only screen and (max-width: 768px) {
+    .class-card {
+        background-color: white;
+        border-radius: 15px;
+        box-shadow: 15px 15px 10px #e6e6e6;
+        margin: 20px;
+        margin-bottom: 40px;
+    }
+}
+
 .no-shadow {
     box-shadow: none;
 }
