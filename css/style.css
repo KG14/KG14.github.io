@@ -127,3 +127,11 @@ nav {
     margin-right: 20px;
     margin-bottom: 20px;
 }
+
+.footer a {
+    color: white !important;
+}
+
+.footer a:hover {
+    color: #FCA301 !important;
+}
