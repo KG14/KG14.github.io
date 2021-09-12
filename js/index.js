@@ -1,5 +1,5 @@
 // Total number of quotes
-let totalQuotes = 4;
+let totalQuotes = 5;
 
 // Index of current quote
 var currentQuote = 0;
