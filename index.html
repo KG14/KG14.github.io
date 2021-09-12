@@ -25,6 +25,9 @@
         <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/mystyles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/4d337321b2.js" crossorigin="anonymous"></script>
         <script src="js/index.js"></script>
         <meta charset="utf-8">
@@ -62,6 +65,10 @@
                     Future classes
                   </a>
 
+                  <a class="navbar-item" onclick="scrollSection('#reviews-section', true)">
+                    Our impact
+                  </a>
+
                   <a class="navbar-item" onclick="scrollSection('#signup-section', true)">
                     Sign up
                   </a>
@@ -72,7 +79,7 @@
             </div>
         </nav>
 
-        <section id="splash-section">
+        <section id="splash-section" class="purple-gradient">
             <div class="container" id="splash-container">
                 <b><p style="font-size: 60px; margin-top: 20px;">
                     <span style="color: white">Welcome, we're</span>
@@ -83,14 +90,14 @@
                 <button class="button is-danger is-rounded is-medium" id="see-classes-btn" style="margin-top: 70px; margin-bottom: 40px;" onclick="scrollSection('#classes-section', true)">See what we offer</button>
             </div>
         </section>
+        <img src="purple_wave_gradient_bottom.svg" width="100%" style="display: block;">
 
-        <img src="purple_wave.svg" width="100%" style="display: block;">
         <section id="classes-section">
             <div class="container classes-container">
                 <b><p style="text-align: center; color: #000047; font-size: 60px;">Summer Camps</p></b>
                 <div class="columns" style="margin-top: 30px;">
                     <div class="column class-card">
-                        <div class="class-card-title" style="background-color: #FCA301;">
+                        <div class="class-card-title is-intermediate">
                             <b><p class="is-size-3">Android App Development</p></b>
                             <p class="is-size-5">An introduction to app development with Android.</p>
                             <p class="is-size-5">Skill level: <b>INTERMEDIATE</b></p>
@@ -106,7 +113,7 @@
                             </div>
                             <hr>
                             <p class="is-size-5">&emsp;This FREE camp will introduce students to the basics of app development with Android. Students will learn to create Android apps using Android Studio, Java, and XML, along with a number of Android front-end and back-end components. They will end the camp with a final project: building a note-taking app from scratch, complete with an attractive UI and functional back-end that allows notes to be stored in a database. <strong>Basic knowledge of Java is highly recommended.</strong></p>
-                            <p class="is-size-5" style="color: red"><strong style="color: red">NOTE: </strong>This camp is now full. Enrollment is closed. The first session starts this Monday at 2:00 PM!</p>
+                            <p class="is-size-5" style="color: red"><strong style="color: red">NOTE: </strong>This camp is now full. Enrollment is closed.</p>
                         </div>
                         <div class="is-flex" style="width: 100%; justify-content: space-between;">
                             <div class="is-flex more-info-btn-div">
@@ -125,7 +132,7 @@
                     </div>
 
                     <div class="column class-card">
-                        <div class="class-card-title" style="background-color: #00D4B7;">
+                        <div class="class-card-title is-beginner">
                             <b><p class="is-size-3">Intro to Python</p></b>
                             <p class="is-size-5">An introduction to programming in Python.</p>
                             <p class="is-size-5">Skill level: <b>BEGINNER</b></p>
@@ -162,13 +169,13 @@
             </div>
         </section>
 
-        <img src="purple_wave.svg" width="100%" style="display: block; transform: rotate(180deg);">
-        <section id="future-classes-section">
+        <img src="purple_wave_gradient_top.svg" width="100%" style="display: block; transform: rotate(180deg);">
+        <section id="future-classes-section" class="purple-gradient">
             <div class="container classes-container">
                 <b><p style="text-align: center; color: white; font-size: 60px;">Coming Soon!</p></b>
                 <div class="columns" style="margin-top: 30px;">
                     <div class="column class-card no-shadow">
-                        <div class="class-card-title" style="background-color: #FCA301;">
+                        <div class="class-card-title is-intermediate">
                             <b><p class="is-size-3">Intro to AI</p></b>
                             <p class="is-size-5">An introduction to AI.</p>
                             <p class="is-size-5">Skill level: <b>INTERMEDIATE</b></p>
@@ -181,7 +188,7 @@
                     </div>
 
                     <div class="column class-card no-shadow">
-                        <div class="class-card-title" style="background-color: #00D4B7;">
+                        <div class="class-card-title is-beginner">
                             <b><p class="is-size-3">Intro to Cybersec</p></b>
                             <p class="is-size-5">An introduction to Cybersecurity.</p>
                             <p class="is-size-5">Skill level: <b>BEGINNER</b></p>
@@ -194,7 +201,7 @@
                     </div>
 
                     <div class="column class-card no-shadow">
-                        <div class="class-card-title" style="background-color: #00D4B7;">
+                        <div class="class-card-title is-beginner">
                             <b><p class="is-size-3">Intro to C++</p></b>
                             <p class="is-size-5">An introduction to C++.</p>
                             <p class="is-size-5">Skill level: <b>BEGINNER</b></p>
@@ -208,11 +215,50 @@
                 </div>
             </div>
         </section>
-        <img src="purple_wave.svg" width="100%" style="display: block;">
+        <img src="purple_wave_gradient_bottom.svg" width="100%" style="display: block;">
 
-        <section id="signup-section" style="display: block; background-color: rgb(74, 0, 143, 0.06); padding-bottom: 20px;">
-            <b><p style="text-align: center; color: #000047; font-size: 60px; padding-top: 30px;">Sign Up</p></b>
-            <div class="is-flex is-justify-content-center" style="padding-bottom: 0px; padding-top: 20px;">
+        <section id="reviews-section">
+            <div class="purple-gradient-transparent" id="reviews-container">
+                <p class="is-size-1" style="color: white; width: 100%; text-align: center; margin-bottom: 80px;"><b>What our students say</b></p>
+                <div class="columns">
+                    <div class="column" style="margin-left: 0px;">
+                        <p class="is-size-6" style="text-transform: uppercase; font-weight: bold; color: #ffced1">Mastery</p>
+                        <p class="is-size-1" style="font-weight: bold; padding: 20px; color: #ffa408">84%</p>
+                        <p class="is-size-5" style="color: white">of our students were at least comfortable with the skills covered by their classes after only 10 hours of instruction.<br>75% of our students entered the camp with little to no experience. </p>
+                    </div>
+                    <div class="column">
+                        <p class="is-size-6" style="text-transform: uppercase; font-weight: bold; color: #ffced1">Success</p>
+                        <p class="is-size-1" style="font-weight: bold; padding: 20px; color: #ffa408">100%</p>
+                        <p class="is-size-5" style="color: white">of our students were satisfied with our camps and classes.<br>All of our students found it met and exceeded their expectations.</p>
+                    </div>
+                    <div class="column">
+                        <p class="is-size-6" style="text-transform: uppercase; font-weight: bold; color: #ffced1">Repeat Students</p>
+                        <p class="is-size-1" style="font-weight: bold; padding: 20px; color: #ffa408">92%</p>
+                        <p class="is-size-5" style="color: white">of our students would attend another CSIgnited camp or class.<br> All of our students would recommend CSIgnited camps and classes to others.</p>
+                    </div>
+                </div>  
+                <div id="carousel-container">
+                    <span style="color: #ffa408;" id="left-quote-btn">
+                        <i class="fas fa-chevron-left fa-lg"></i>
+                    </span>
+                    <div id="quotes-carousel">
+                        <p class="carousel-item is-size-4" id="rev-1">"The...camp was really good....The instructors also teach very well and there is a lot of in class activity that can help students build on the topics they learned in class."</p>
+                        <p class="carousel-item is-size-4" id="rev-2">"I learned a lot from this camp and enjoyed learning app development on Android using XML and Java."</p>
+                        <p class="carousel-item is-size-4" id="rev-3">"I liked that the teacher was able to make us understand alien concepts in such a short amount of time and the clarification of our questions."</p>
+                        <p class="carousel-item is-size-4" id="rev-4">"The instructor is great and knowledgable. This camp...goes on a slow, understandable pace and yet covers a breadth of topics necessary to build a strong [CS] foundation. I would recommend this camp to anyone."</p>
+                    </div>
+                    
+                    <span style="color: #ffa408" id="right-quote-btn">
+                        <i class="fas fa-chevron-right fa-lg"></i>
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <img src="purple_wave_gradient_top.svg" width="100%" style="display: block; transform: rotate(180deg);">
+        <section class="purple-gradient" id="signup-section" style="display: block; background-color: rgb(74, 0, 143, 0.06); padding-bottom: 20px;">
+            <b><p style="text-align: center; color: white; font-size: 60px; padding-top: 40px;">Sign Up</p></b>
+            <div class="is-flex is-justify-content-center" style="padding-bottom: 0px; padding-top: 40px;">
                 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeH64-i7EwOkyVAAR3i2NhUPgkyBBC6pV1ZK7QH-7alE6RlSw/viewform?embedded=true" width="50%" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
             </div>
         </section>

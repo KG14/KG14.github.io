@@ -1,3 +1,7 @@
+* {
+    font-family: 'Noto Sans JP';
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -7,8 +11,17 @@ nav {
     font-size: 20px;
 }
 
+body {
+    background-color: rgb(74, 0, 143, 0.06) !important; 
+}
+
+.purple-gradient {
+    background: linear-gradient(to bottom right, #5700a8, #2a015f);
+}
+
 #splash-section {
-    background-color: #4A008F;
+    /*background-color: #4A008F;*/
+    /*background: linear-gradient(to bottom right, #6D0EB2, #2D0CB5);*/
     min-height: 60vh;
     display: flex;
     align-items: flex-end;
@@ -22,6 +35,11 @@ nav {
 #see-classes-btn {
     margin-top: 70px;
     margin-bottom: 40px;
+    transition: all 0.5s;
+}
+
+#see-classes-btn:hover {
+    transform: scale(1.03)
 }
 
 #classes-section {
@@ -112,7 +130,7 @@ nav {
 .more-info-btn {
     background: transparent;
     border: none;
-    transition: transform 0.5s;
+    transition: transform 0.3s;
 }
 
 .more-info-btn:hover {
@@ -121,6 +139,59 @@ nav {
 
 .more-info-btn-active {
     transform: rotate(180deg);
+}
+
+#reviews-section {
+    background-color: rgb(74, 0, 143, 0.06);
+    padding: 70px 100px 80px 100px;
+}
+
+#reviews-container {
+    padding: 50px 100px 70px 100px;
+    border-radius: 30px;
+    background: linear-gradient(to bottom right, #fc326e, #c0003a);
+    opacity: 80%;
+}
+
+#reviews-container .column {
+    width: 100px;
+    height: 100px;
+    margin-left: 10%;
+}
+
+#reviews-container .column p {
+    width: 100%;
+    text-align: center;
+}
+
+#carousel-container {
+    margin-top: 335px;
+    display: flex;
+    align-items: center;
+}
+
+#quotes-carousel {
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+
+.carousel-item {
+    color: white;
+    font-style: italic;
+    display: inline-block;
+    width: 100%;
+    white-space: normal;
+    text-align: center;
+}
+
+#carousel-container i {
+    transition: all 0.3s;
+}
+
+#carousel-container i:hover {
+    transform: scale(1.25)
 }
 
 .sign-up-btn {
@@ -134,4 +205,12 @@ nav {
 
 .footer a:hover {
     color: #FCA301 !important;
+}
+
+.is-beginner {
+    background: linear-gradient(to bottom right, #00eccd, #00b68b);
+}
+
+.is-intermediate {
+    background: linear-gradient(to bottom right, #FCA301, #fc6e01);
 }
