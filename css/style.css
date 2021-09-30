@@ -178,6 +178,10 @@ body {
     scroll-behavior: smooth;
 }
 
+#quotes-carousel::-webkit-scrollbar {
+    display: none;
+}
+
 .carousel-item {
     color: white;
     font-style: italic;
