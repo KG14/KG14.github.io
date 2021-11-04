@@ -94,69 +94,142 @@
 
         <section id="future-classes-section">
             <div class="container classes-container">
-                <b><p style="text-align: center; color: #000047; font-size: 60px;">Weekly Classes Starting Soon!</p></b>
+                <b><p style="text-align: center; color: #000047; font-size: 60px;">Weekly Classes Starting Now!</p></b>
                 <div class="columns" style="margin-top: 30px;">
-                    <div class="column class-card">
-                        <div class="class-card-title is-intermediate">
-                            <b><p class="is-size-3">Android App Development</p></b>
-                            <p class="is-size-5">An introduction to app development with Android</p>
-                            <p class="is-size-5">Skill level: <b>INTERMEDIATE</b></p>
-                        </div>
-                        <div class="class-card-description">
-                            <p class="is-size-5">This free class will introduce students to the basics of app development with Android.</p>                            
-                            <p class="is-size-5" style="font-weight: bold;">Classes will start mid-October.</p>
-                        </div>
-                    </div>
-
                     <div class="column class-card">
                         <div class="class-card-title is-beginner">
                             <b><p class="is-size-3">Intro to Python</p></b>
-                            <p class="is-size-5">An introduction to programming in Python.</p>
+                            <p class="is-size-5">An introduction to programming in Python</p>
                             <p class="is-size-5">Skill level: <b>BEGINNER</b></p>
                         </div>
                         <div class="class-card-description">
-                            <p class="is-size-5">This free class will introduce students to the basics of programming in Python.</p>                            
-                            <p class="is-size-5" style="font-weight: bold;">Classes will start mid-October.</p>
+                            <div class="description-icon-div">
+                                <i class="far fa-calendar-alt fa-2x"></i>
+                                <p class="is-size-5">Monday, November 8, to Monday, January 17</p>
+                            </div>
+                            <div class="description-icon-div">
+                                <i class="far fa-clock fa-2x"></i>
+                                <p class="is-size-5">Weekly on Mondays from 5:00 PM to 6:00 PM PST (8 weeks)</p>
+                            </div>
+                            <hr>
+                            <p class="is-size-5">&emsp;This FREE camp will introduce students to the basics of programming in Python. Students will learn foundational concepts such as program structure, data types, variables, basic operations, logic with conditionals, loops, data structures like arrays, functions, and essential library functions. They will have a chance to use these new skills in a number of mini-projects. <strong>Classes will take place virtually.</strong></p>
+                        </div>
+                        <div class="is-flex" style="width: 100%; justify-content: space-between;">
+                            <div class="is-flex more-info-btn-div">
+                                <b><p class="is-size-5" style="margin-right: 10px;">More info</p></b>
+                                <button onclick="showInfo(this)" class="more-info-btn">
+                                    <i class="fas fa-angle-down fa-2x"></i>
+                                </button>
+                            </div>
+                            <button class="button sign-up-btn is-light is-danger" onclick="scrollSection('#signup-section', true)">Sign up</button>
+                        </div>
+                        <div class="more-info">
+                            <p class="is-size-5"><strong>NOTE:</strong> No prior knowledge of Python is required; the class will introduce students to the language.</p>
+                            <p class="is-size-5">Students will also need access to a computer.</p>
+                        </div>  
+                    </div>
+
+                    <div class="column class-card">
+                        <div class="class-card-title is-intermediate">
+                            <b><p class="is-size-3">Intro to AI/ML</p></b>
+                            <p class="is-size-5">An introduction to machine learning with neural networks</p>
+                            <p class="is-size-5">Skill level: <b>INTERMEDIATE</b></p>
+                        </div>
+                        <div class="class-card-description">
+                            <div class="description-icon-div">
+                                <i class="far fa-calendar-alt fa-2x"></i>
+                                <p class="is-size-5">Wednesday, November 17, to Wednesday, January 12</p>
+                            </div>
+                            <div class="description-icon-div">
+                                <i class="far fa-clock fa-2x"></i>
+                                <p class="is-size-5">Weekly on Wednesdays from 6:30 PM to 7:30 PM PST (6 weeks)</p>
+                            </div>
+                            <hr>
+                            <p class="is-size-5">&emsp;This FREE camp will introduce students to the basics of machine learning. Students will gain a detailed understanding of how neural networks allow computers to “learn” and how to create, train, and test their own models using Python. Students will also have the opportunity to apply these concepts to simple real-world applications. <strong>Classes will take place virtually.</strong></p>
+                        </div>
+                        <div class="is-flex" style="width: 100%; justify-content: space-between;">
+                            <div class="is-flex more-info-btn-div">
+                                <b><p class="is-size-5" style="margin-right: 10px;">More info</p></b>
+                                <button onclick="showInfo(this)" class="more-info-btn">
+                                    <i class="fas fa-angle-down fa-2x"></i>
+                                </button>
+                            </div>
+                            <button class="button sign-up-btn is-light is-danger"  onclick="scrollSection('#signup-section', true)">Sign up</button>
+                        </div>
+                        <div class="more-info">
+                            <p class="is-size-5"><strong>NOTE: Basic knowledge of Python is recommended for this camp</strong>, as we will be using primarily Python libraries to create, train, and test neural networks.</p>
+                            <p class="is-size-5">Students will also need access to a computer, as classes will take place virtually.</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="columns">
                     <div class="column class-card">
-                        <div class="class-card-title is-intermediate">
-                            <b><p class="is-size-3">Intro to AI</p></b>
-                            <p class="is-size-5">An introduction to AI.</p>
-                            <p class="is-size-5">Skill level: <b>INTERMEDIATE</b></p>
-                        </div>
-                        <div class="class-card-description">
-                            <p class="is-size-5">This free class will introduce students to AI with Python.</p>
-                        </div>
-                    </div>
-
-                    <div class="column class-card">
                         <div class="class-card-title is-beginner">
-                            <b><p class="is-size-3">Intro to Cybersec</p></b>
-                            <p class="is-size-5">An introduction to Cybersecurity.</p>
+                            <b><p class="is-size-3">Intro to Cybersecurity</p></b>
+                            <p class="is-size-5">An introduction to the cybersecurity field</p>
                             <p class="is-size-5">Skill level: <b>BEGINNER</b></p>
                         </div>
                         <div class="class-card-description">
-                            <p class="is-size-5">This free class will introduce students to the basics of cybersecurity.</p>
+                            <div class="description-icon-div">
+                                <i class="far fa-calendar-alt fa-2x"></i>
+                                <p class="is-size-5">Wednesday, November 10, to Wednesday, January 12</p>
+                            </div>
+                            <div class="description-icon-div">
+                                <i class="far fa-clock fa-2x"></i>
+                                <p class="is-size-5">Weekly on Wednesdays from 5:00 PM to 6:00 PM PST (7 weeks)</p>
+                            </div>
+                            <hr>
+                            <p class="is-size-5">&emsp;This FREE camp will introduce students to the basics of cybersecurity. Students will learn about topics essential to the field, such as networking (including network structure, its domains, and the protocols that allow data to be transferred across the internet), network attacks and defenses, basic cryptography, and software security. Finally, students will get a chance to use their new skills in practice cybersecurity competitions like CTFs! <strong>Classes will take place virtually.</strong></p>
+                        </div>
+                        <div class="is-flex" style="width: 100%; justify-content: space-between;">
+                            <div class="is-flex more-info-btn-div">
+                                <b><p class="is-size-5" style="margin-right: 10px;">More info</p></b>
+                                <button onclick="showInfo(this)" class="more-info-btn">
+                                    <i class="fas fa-angle-down fa-2x"></i>
+                                </button>
+                            </div>
+                            <button class="button sign-up-btn is-light is-danger"  onclick="scrollSection('#signup-section', true)">Sign up</button>
+                        </div>
+                        <div class="more-info">
+                            <p class="is-size-5"><strong>NOTE:</strong> No prior knowledge of cybersecurity or networking is required; the class will introduce students to these fields.</p>
+                            <p class="is-size-5">Students will also need access to a computer, as classes will take place virtually.</p>
                         </div>
                     </div>
 
                     <div class="column class-card">
                         <div class="class-card-title is-beginner">
                             <b><p class="is-size-3">Intro to Java</p></b>
-                            <p class="is-size-5">An introduction to Java.<p>
+                            <p class="is-size-5">An introduction to programming in the Java language</p>
                             <p class="is-size-5">Skill level: <b>BEGINNER</b></p>
                         </div>
                         <div class="class-card-description">
-                            <p class="is-size-5">This free class will introduce students to the basics of the Java language.</p>                    
+                            <div class="description-icon-div">
+                                <i class="far fa-calendar-alt fa-2x"></i>
+                                <p class="is-size-5">Friday, November 12, to Friday, January 21</p>
+                            </div>
+                            <div class="description-icon-div">
+                                <i class="far fa-clock fa-2x"></i>
+                                <p class="is-size-5">Weekly on Fridays from 4:30 PM to 5:30 PM PST (8 weeks)</p>
+                            </div>
+                            <hr>
+                            <p class="is-size-5">&emsp;This FREE camp will introduce students to the basics of programming in Java. Students will learn essential concepts including Java program structure, data types, variables, basic operations, logic with conditionals, loops, data structures like arrays and ArrayLists, and functions. They will have a chance to practice these new skills in a variety of projects and exercises. <strong>Classes will take place virtually.</strong></p>
+                        </div>
+                        <div class="is-flex" style="width: 100%; justify-content: space-between;">
+                            <div class="is-flex more-info-btn-div">
+                                <b><p class="is-size-5" style="margin-right: 10px;">More info</p></b>
+                                <button onclick="showInfo(this)" class="more-info-btn">
+                                    <i class="fas fa-angle-down fa-2x"></i>
+                                </button>
+                            </div>
+                            <button class="button sign-up-btn is-light is-danger"  onclick="scrollSection('#signup-section', true)">Sign up</button>
+                        </div>
+                        <div class="more-info">
+                            <p class="is-size-5"><strong>NOTE:</strong>  No prior knowledge of Java is required; the class will introduced students to the language.</p>
+                            <p class="is-size-5">Students will also need access to a computer, as classes will take place virtually.</p>
                         </div>
                     </div>
                 </div>
-
-                <b><p style="text-align: center; margin-top: 20px; color: #000047;" class="is-size-5">More classes coming soon!</p></b>
             </div>
         </section>
         
@@ -181,8 +254,7 @@
                                 <p class="is-size-5">2:00 PM to 4:00 PM every day (10 hours)</p>
                             </div>
                             <hr>
-                            <p class="is-size-5">&emsp;This FREE camp will introduce students to the basics of app development with Android. Students will learn to create Android apps using Android Studio, Java, and XML, along with a number of Android front-end and back-end components. They will end the camp with a final project: building a note-taking app from scratch, complete with an attractive UI and functional back-end that allows notes to be stored in a database. <strong>Basic knowledge of Java is highly recommended.</strong></p>
-                            <p class="is-size-5" style="color: red"><strong style="color: red">NOTE: </strong>This camp is now full. Enrollment is closed.</p>
+                            <p class="is-size-5">&emsp;This FREE camp introduced students to the basics of app development with Android. Students learnt to create Android apps using Android Studio, Java, and XML, along with a number of Android front-end and back-end components. Students ended the camp with a final project: building a note-taking app from scratch, complete with an attractive UI and functional back-end that allows notes to be stored in a database.</p>
                         </div>
                         <div class="is-flex" style="width: 100%; justify-content: space-between;">
                             <div class="is-flex more-info-btn-div">
@@ -216,8 +288,7 @@
                                 <p class="is-size-5">10:00 AM to 12:00 PM every day (10 hours)</p>
                             </div>
                             <hr>
-                            <p class="is-size-5">&emsp;This FREE camp will introduce students to the basics of programming in Python. Students will learn foundational concepts such as program structure, data types, variables, basic operations, logic with conditionals, loops, data structures like arrays, functions, and essential library functions. They will have a chance to use these new skills in a number of mini-projects and will end the camp with a final project: building the game TicTacToe with Pygame graphics.</p>
-                            <p class="is-size-5" style="color: red"><strong style="color: red">NOTE: </strong>This camp is now full. Enrollment is closed.</p>
+                            <p class="is-size-5">&emsp;This FREE camp introduced students to the basics of programming in Python. Students learnt foundational concepts such as program structure, data types, variables, basic operations, logic with conditionals, loops, data structures like arrays, functions, and essential library functions. They also had a chance to use these new skills in a number of mini-projects and ended the camp with a final project: building the game TicTacToe with Pygame graphics.</p>
                         </div>
                         <div class="is-flex" style="width: 100%; justify-content: space-between;">
                             <div class="is-flex more-info-btn-div">
@@ -230,7 +301,7 @@
                         </div>
                         <div class="more-info">
                             <p class="is-size-5"><strong>NOTE:</strong> No prior knowledge of Python is required; the camp will introduce students to the language.</p>
-                            <p class="is-size-5">Students will also need access to a computer.</p>
+                            <p class="is-size-5">Students will also need access to a computer, as classes will take place virtually.</p>
                             <p class="is-size-5">Python can be downloaded from <a href="https://www.python.org/downloads/">here</a>, but we will cover the installation in the camp as well.</p>
                         </div>
                     </div>
@@ -282,7 +353,7 @@
         <section class="purple-gradient" id="signup-section" style="display: block; background-color: rgb(74, 0, 143, 0.06); padding-bottom: 20px;">
             <b><p style="text-align: center; color: white; font-size: 60px; padding-top: 40px;">Sign Up</p></b>
             <div class="is-flex is-justify-content-center" style="padding-bottom: 0px; padding-top: 40px;">
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeJrNjPsGgDu_x3k2m4bDkPAw4DpltuBDwcZ1bjMXtsboY6IA/viewform?usp=sf_link?embedded=true" width="50%" height="500" frameborder="0" marginheight="0" marginwidth="0" style="border-radius: 20px;">Loading…</iframe>
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd5_etZlqjaEBKM8_8zeXJAKSR_zXBPlUVPjkNVk4CjH0jqGQ/viewform?embedded=true" width="50%" height="500" frameborder="0" marginheight="0" marginwidth="0" style="border-radius: 20px;">Loading…</iframe>
             </div>
         </section>
         
