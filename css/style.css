@@ -155,9 +155,22 @@ body {
 }
 
 #reviews-container .column {
-    width: 100px;
-    height: 100px;
     margin-left: 10%;
+}
+
+@media only screen and (max-width: 768px) {
+    #reviews-container {
+        padding: 25px 60px 35px 60px;
+    }
+
+    #reviews-container .column {
+        margin-left: 0%;
+        margin-bottom: 15%;
+    }
+
+    #reviews-section {
+        padding: 70px 10% 80px 10%;
+    }
 }
 
 #reviews-container .column p {
@@ -166,9 +179,15 @@ body {
 }
 
 #carousel-container {
-    margin-top: 335px;
     display: flex;
     align-items: center;
+    margin-top: 5%;
+}
+
+@media only screen and (max-width: 768px) {
+    #carousel-container {
+        display: none;
+    }
 }
 
 #quotes-carousel {
@@ -202,6 +221,16 @@ body {
 .sign-up-btn {
     margin-right: 20px;
     margin-bottom: 20px;
+}
+
+iframe {
+    width: 50%
+}
+
+@media only screen and (max-width: 768px) {
+    iframe {
+        width:  80%
+    }
 }
 
 .footer a {
