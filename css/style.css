@@ -29,12 +29,12 @@ body {
 
 #splash-container {
     text-align: center;
-    padding: 50px;
+    padding: 50px 5% 50px 5%;
 }
 
 #see-classes-btn {
-    margin-top: 70px;
-    margin-bottom: 40px;
+    margin-top: 9%;
+    margin-bottom: 4%;
     transition: all 0.5s;
 }
 
@@ -71,6 +71,10 @@ body {
         box-shadow: 15px 15px 10px #e6e6e6;
         margin: 20px;
         margin-bottom: 40px;
+    }
+
+    .classes-container {
+        padding: 4%;
     }
 }
 
@@ -169,7 +173,7 @@ body {
     }
 
     #reviews-section {
-        padding: 70px 10% 80px 10%;
+        padding: 70px 4% 80px 4%;
     }
 }
 
@@ -229,7 +233,7 @@ iframe {
 
 @media only screen and (max-width: 768px) {
     iframe {
-        width:  80%
+        width: 90%
     }
 }
 
@@ -247,4 +251,18 @@ iframe {
 
 .is-intermediate {
     background: linear-gradient(to bottom right, #FCA301, #fc6e01);
+}
+
+.small-heading {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .small-heading {
+        display: block;
+    }
+
+    .big-heading {
+        display: none;
+    }
 }
